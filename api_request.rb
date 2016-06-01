@@ -11,11 +11,15 @@ my_hash = JSON.parse(response)
 
 # This function takes in array of 
 # hashes and checks each hash if 
-# the region key is mapped to "MD"
-# Calls Twilio api to send message 
-# to user
-def in_maryland(hash)
-	
-
+# Calls Twilio api to send message
+# if Maryland is a destination 
+def in_maryland(hash_arr)
+    a = []
+  	b = {} 
+	hash_arr.each { |x|
+		a = x.keys
+	   	b = x["venue"]
+		if b["region"].eql? "NJ" then puts "I got NJ" end 	
+  	}
 end
-
+in_maryland(my_hash)
