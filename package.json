@@ -1,0 +1,19 @@
+{
+  "name": "in_town",
+  "version": "1.0.0",
+  "description": "Notifies user if an artist is coming to Maryland",
+  "main": "in_town.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FareedJaved/BandsInTown.git"
+  },
+  "author": "Fareed Javed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FareedJaved/BandsInTown/issues"
+  },
+  "homepage": "https://github.com/FareedJaved/BandsInTown#readme"
+}
