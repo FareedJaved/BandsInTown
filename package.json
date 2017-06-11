@@ -1,19 +1,24 @@
 {
-  "name": "in_town",
-  "version": "1.0.0",
-  "description": "Notifies user if an artist is coming to Maryland",
-  "main": "in_town.js",
+  "name": "chance-in-town",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "leaflet": "^1.0.3",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-leaflet": "^1.2.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
   "scripts": {
-    "test": "testing"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FareedJaved/BandsInTown.git"
-  },
-  "author": "Fareed Javed",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FareedJaved/BandsInTown/issues"
-  },
-  "homepage": "https://github.com/FareedJaved/BandsInTown#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
